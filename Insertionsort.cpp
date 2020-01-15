@@ -29,7 +29,9 @@ int main( int argc, char* argv[] )
 {
     int array[10] = { 2,1,7,4,3,5,9,6,8,0 };
     size_t length = sizeof(array)/sizeof(int);
+    cout<<" Array Before Sorting \n";
     displayArray( array, length ); 
     insertionSort( array, length );
+    cout<<" Array After Sorting \n";
     displayArray( array, length ); 
 }
