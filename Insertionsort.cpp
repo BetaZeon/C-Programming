@@ -1,5 +1,9 @@
-#include <cstdio>
-#include <cstdlib>
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <iostream>
+
+using namespace std;
 
 void insertionSort(int arr[], int length) {
       int i, j, tmp;
@@ -15,10 +19,10 @@ void insertionSort(int arr[], int length) {
 }
 
 int displayArray( int arr[], int length ) {
-    printf("{");
+        cout<<"{";
     for( int i=0; i<length; i++ )
-        printf("%d, ", arr[i] );
-    printf("}\n");
+        cout<<" "<<arr[i];
+    cout<<"}\n";
 }
 
 int main( int argc, char* argv[] )
